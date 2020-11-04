@@ -26,6 +26,9 @@ const setupInput = function(conn) {
     
       setInterval(()=> {conn.write("Move: right")},500)
     }
+    if (key === 'b'){
+      conn.write("Say: ass")
+    }
   })   
 }
 handleUserInput()
